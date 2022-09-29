@@ -13,8 +13,7 @@
 	justify-content: center;
 	align-items: center;
 	opacity:0;
-	background-color: rgb(242, 242, 242);
-	-moz-animation: display_page_index  linear  forwards infinite;
+		-moz-animation: display_page_index  linear  forwards infinite;
     -webkit-animation: display_page_index  linear  forwards infinite; 
     animation: display_page_index  linear  forwards infinite;
 	animation-delay: 4s;
@@ -27,14 +26,14 @@
 	align-content: center;
 	width:100%;
 	height: auto;
+	/* background-color: rgb(242, 242, 242); */
   }
  .loading_spinner{
     display:flex;
     justify-content: center;
     align-items: center;
-    margin:18%;
-    width:100%;
-    height: auto;
+     width:100%;
+    height: 10%;
 	-moz-animation: display  linear  forwards infinite;
     -webkit-animation: display  linear  forwards infinite; 
     animation: display  linear  forwards infinite;
