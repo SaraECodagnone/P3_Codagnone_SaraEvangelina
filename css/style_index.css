@@ -325,17 +325,17 @@ height: 20px;
 .c__fonctionnement:nth-child(3):hover .bouton__fnct svg{
 	   fill: rgb(147,86,220);
 }
- 	.menu__principal {
+ 	/* .menu__principal {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		/* flex-direction: column;
 		align-items: center; */
-		width: 100%; 
+		/* width: 100%; 
 			height: auto;
 			padding:60px 0px 60px 0px;
 			margin:1px;
-	}
+	} */ 
 
 
  	 .c__restaurants a{
