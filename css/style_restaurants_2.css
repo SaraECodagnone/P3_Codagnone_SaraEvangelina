@@ -276,7 +276,7 @@ padding:3px;
        border-bottom-right-radius: 25px;
        border-top-right-radius: 25px; 
   }
-  #svg_square{
+  .svg_square{
     width: 94px; 
     height:104px;
     margin:0px;  
@@ -298,7 +298,7 @@ padding:3px;
     margin:8%;
     border-radius: 40px;
   }
-  #svg_circleok{
+  .svg_circleok{
    color:rgb(153, 226, 208);
      width:40px;
      height: 40px;
