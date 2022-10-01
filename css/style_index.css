@@ -325,17 +325,17 @@ height: 20px;
 .c__fonctionnement:nth-child(3):hover .bouton__fnct svg{
 	   fill: rgb(147,86,220);
 }
- 	/* .menu__principal {
+ 	.menu__principal {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		/* flex-direction: column;
-		align-items: center; */
-		/* width: 100%; 
+		align-items: center;*/ 
+		width: 100%; 
 			height: auto;
 			padding:60px 0px 60px 0px;
 			margin:1px;
-	} */ 
+	} 
 
 
  	 .c__restaurants a{
@@ -559,7 +559,7 @@ footer p{
 /*@media (max-width: 576px) {  
  
 } */
- @media all and (max-width: 640px){
+ @media all and (max-width: 576px){
 
  	.oh__my__food__page{
 		display:flex;
@@ -598,7 +598,7 @@ footer p{
 }
 /* Media queries devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 /* (and small desktop 992px and up until 1299px) */
-@media all and (min-width:641px)  and (max-width:1299px){  
+@media all and (min-width:768px)  and (max-width:991px){  
 		.oh__my__food__page{
 			display:flex;
 			flex-wrap: wrap;
@@ -636,10 +636,10 @@ footer p{
 /* } */
 /**/
 /* Version Ordinateur*/
-/* Large devices (desktops, 1300px and up) */
+/* Large devices (desktops, 992px and up) */
 /**/
 /* */
-@media all and (min-width: 1300px){ 
+@media all and (min-width: 992px){ 
 	.oh__my__food__page{
 		display:flex;
 		flex-wrap: wrap;
