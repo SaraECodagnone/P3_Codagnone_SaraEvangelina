@@ -55,8 +55,8 @@ a {
       display: flex;
       flex-wrap: wrap;
       justify-content: center; 
-   min-width:300px;
-  max-width: 600px;
+width:300px;
+  height:200px;
    position: relative;
    }
    .image__restaurants img{
@@ -66,7 +66,8 @@ a {
    }
    .desc_restaurants{
       display: flex;
-      flex-wrap: wrap;
+       
+      /* flex-wrap: wrap; */
       justify-content: space-between;
       align-items: center;
       width:100%; 
@@ -81,13 +82,13 @@ a {
 .desc_restaurants h2{
    font-family: "Shrikhand";
    font-style: italic;
-   font-size: 30px;
+   font-size: 10px;
 }
 .titre_desc_restaurant{
    display:flex;
    flex-wrap: wrap;
    justify-content: center;
-   width:240px;
+   width:260px;
    height: auto;
 }
 .svg_hearts {
