@@ -3,9 +3,9 @@
    -moz-box-sizing: border-box; /* Firefox autres Gecko*/
  -webkit-box-sizing: border-box; /*Safari/Chrome, autres WebKit*/ 
       font-family: 'Raleway', roboto, sans-serif; 
-    margin: 0;
-    padding: 10;
-}
+    /* margin: 0px;
+    padding:0px; */
+  }
  h1 {
     font-weight: bold;
     font-size: 16px;
@@ -55,13 +55,13 @@ a {
       display: flex;
       flex-wrap: wrap;
       justify-content: center; 
-width:300px;
-  height:200px;
+width:100%;
+  height:auto;
    position: relative;
    }
    .image__restaurants img{
       width:100%;
-     height:auto;
+     height:280px;
             object-fit:cover;
    }
    .desc_restaurants{
