@@ -119,8 +119,57 @@ justify-content: center;
 					width: 100%; 
 					padding:1px;	
 							 }
+ 	/* */
+ 	/*Div class formulaire =  div icone localisation+id_search input +div submit"*/
+ 	/* */
+ 	.formulaire_search {
+		display: flex;
+		border: 2px solid #F2F2F2;
+		border-radius: 10px;
+		width: auto;
+		margin: 2px;
+	}
+	.formulaire {
+		display: flex;
+	}
 
- 	
+	.localisation {
+		background-color: #F2F2F2;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		width: 30px;
+	}
+
+	#icone_localisation {
+		padding: 10px;
+	}
+
+	.search {
+		display: flex;
+
+	}
+
+	#input_search {
+		border: none;
+		outline: none;
+		}
+
+
+
+	#rechercher {
+
+		color: rgb(0, 0, 0);
+	}
+
+	#bouton_rechercher {
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		background-color: #f2f2f2;
+		border-color: grey;
+		padding: 8px;
+		cursor:pointer;
+	}
+
  	.localisation {
  		display: flex;
  		flex-wrap: wrap;
@@ -165,6 +214,7 @@ height: 20px;
 	width:100%;
 	height: auto;
 	background-color: rgb(242, 242, 242);
+	margin:30px;
 }
 	 .desc__oh__my__food{
 		 display:flex;
