@@ -163,44 +163,57 @@
  	padding: 1px;
  }
 
+ .localisation_plus_titre_ville {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	/* height: 40px; */
+	margin: 2px 0px 0px 0px;
+	background-color: #e7e7e7;
+}
  /* */
  /*Div class formulaire =  div icone localisation+id_search input +div submit"*/
  /* */
  .formulaire_search {
  	display: flex;
- 	border: 2px solid #F2F2F2;
+ 	/* border: 2px solid #F2F2F2; */
  	border-radius: 10px;
  	width: auto;
- 	margin: 2px;
+ 	margin: 2px 0px;
  }
 
  .formulaire {
  	display: flex;
  }
-
  .localisation {
- 	background-color: #F2F2F2;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(230, 225, 225);
+	background-color: #F2F2F2;
  	border-top-left-radius: 10px;
  	border-bottom-left-radius: 10px;
  	width: 30px;
+	height: auto;
+	margin: 2px;
  }
 
  #icone_localisation {
  	padding: 10px;
  }
 
- .search {
- 	display: flex;
-
- }
 
  #input_search {
  	border: none;
  	outline: none;
+	background-color: #e7e7e7;
  }
 
 
-
+/* 
  #rechercher {
 
  	color: rgb(0, 0, 0);
@@ -213,28 +226,9 @@
  	border: 2px solid lightgray;
  	padding: 8px;
  	cursor: pointer;
- }
+ } */
 
- .localisation {
- 	display: flex;
- 	flex-wrap: wrap;
- 	justify-content: center;
- 	align-items: center;
- 	background-color: rgb(230, 225, 225);
- 	width: 100%;
- 	height: auto;
- 	margin: 2px;
- }
 
- .localisation_plus_titre_ville {
- 	display: flex;
- 	flex-wrap: wrap;
- 	justify-content: center;
- 	align-items: center;
- 	width: 100%;
- 	height: 40px;
- 	margin: 2px;
- }
 
  .icone__localisation svg {
  	display: flex;
@@ -263,7 +257,7 @@
  	width: 100%;
  	height: auto;
  	background-color: rgb(242, 242, 242);
- 	margin: 30px;
+ 	/* margin: 30px 0px; */
  }
 
  .desc__oh__my__food {
@@ -468,6 +462,7 @@
  	color: rgb(0, 0, 0);
  	text-decoration: none;
  	display: inline-block;
+	width:100%;
  }
 
  .c__restaurants {
@@ -487,10 +482,12 @@
  	justify-content: center;
  	flex-wrap: wrap;
  	width: 100%;
+	
  }
 
  .c__restaurants h2 {
  	width: 100%;
+	text-align: left;
  }
 
  .container__restaurants {
@@ -498,7 +495,7 @@
  	flex-wrap: wrap;
  	justify-content: center;
  	width: 100%;
- 	margin: 1px;
+ 	margin: 6px 0px;
  }
 
  .cad__restaurants:nth-child(1) .restaurants,
@@ -508,18 +505,20 @@
  	display: flex;
  	flex-wrap: wrap;
  	justify-content: center;
- 	width: 300px;
+ 	/* width: 300px; */
+	width: 100%;
  	background-color: rgb(255, 255, 255);
  	box-shadow: 4px 4px 4px rgb(116, 107, 107);
  	border-radius: 20px;
- 	margin: 4px;
- 	padding: 1px;
+ 	margin: 4px 0px;
+ 	padding: 1px 0px;
  }
 
  .image__restaurant {
  	display: flex;
  	flex-wrap: wrap;
- 	width: 300px;
+ 	/* width: 300px; */
+	width: 100%;
  	height: 130px;
  	position: relative;
  	z-index: 0;
@@ -573,7 +572,8 @@
  	display: flex;
  	flex-wrap: wrap;
  	justify-content: center;
- 	width: 300px;
+ 	/* width: 300px; */
+width:100%;
  	padding: 3px;
  	margin: 2px;
  }
@@ -582,7 +582,8 @@
  	display: flex;
  	flex-wrap: wrap;
  	align-items: center;
- 	width: 230px;
+ 	/* width: 230px; */
+	flex:1;
  	height: auto;
  	margin: 2px;
  	padding: 3px;
@@ -778,7 +779,8 @@
  	.oh__my__food__page {
  		display: flex;
  		flex-wrap: wrap;
- 		min-width: 640px;
+ 		/* min-width: 640px; */
+		width:100%;
  	}
 
  	.c__fonctionnement:nth-child(1),
@@ -789,7 +791,7 @@
  		justify-content: center;
  		align-content: center;
  		/* width: 300px;  */
- 		width: 50%;
+ 		width: 40%;
  		margin: 3px;
  		padding: 3px;
  	}
@@ -801,9 +803,11 @@
  		display: flex;
  		flex-wrap: wrap;
  		justify-content: center;
- 		width: 50%;
+ 		width: 40%;
  		height: auto;
  		border-radius: 20px;
+		 margin: 3px;
+ 		padding: 3px;
  	}
 
  	.footer__restaurant,
@@ -851,9 +855,11 @@
  		display: flex;
  		flex-wrap: wrap;
  		justify-content: center;
- 		width: 25%;
+ 		width: 24%;
  		height: auto;
  		border-radius: 20px;
+		 margin: 3px;
+ 		padding: 3px;
  	}
 
  	.footer__restaurant,
@@ -864,6 +870,8 @@
  		flex-wrap: wrap;
  		align-items: center;
  		justify-content: center;
- 		width: 25%;
+ 		width: 24%;
+		 margin: 3px;
+ 		padding: 3px;
  	}
  }
