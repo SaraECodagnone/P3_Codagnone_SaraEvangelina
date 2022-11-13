@@ -242,7 +242,7 @@
  .titre_ville {
  	display: flex;
  	flex-wrap: wrap;
- 	width: 240px;
+ 	width: 240px; 
  	height: auto;
  	justify-content: center;
  	margin: 1px;
