@@ -61,10 +61,12 @@
 
  /*Pour tous les navigateurs */
  @-webkit-keyframes spin {
- 	0% {
+ 	from{
  		transform: rotate(0deg);
  	}
-
+	 to {
+		transform: rotate(360deg);
+	}
  	/* 100% { transform: rotate(360deg); } */
  }
 
@@ -112,7 +114,7 @@
  	}
  }
 
- /*vide*/
+ /*opacity=0 transparency */
  @keyframes display_page_index {
  	from {
  		opacity: 0;
