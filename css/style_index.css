@@ -9,7 +9,10 @@
  	margin: 0;
  	padding: 0;
  }
-
+a{
+	text-decoration: none;
+	color:black;
+}
  .page_index {
  	display: flex;
  	flex-wrap: wrap;
@@ -134,7 +137,7 @@
  h2 {
  	font-size: 18px;
  	margin: 1px;
- 	text-align: center;
+ 	 text-align: left; 
  }
 
 
@@ -351,7 +354,10 @@
  	flex-wrap: wrap;
  	width: 100%;
  }
-
+ .fonctionnement h2 {
+	width: 100%;
+   text-align: left;
+} 
  .div__bouton__fnct {
  	display: flex;
  	flex-wrap: wrap;
