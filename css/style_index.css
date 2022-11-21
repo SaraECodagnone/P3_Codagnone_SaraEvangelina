@@ -312,8 +312,10 @@ a{
  	font-size: 16px;
  	position: relative;
  	z-index: 1;
+	 box-shadow: 2px 2px 3px rgb(130, 129, 129);
  	background: radial-gradient(circle at top left,
  			rgb(255, 121, 218), rgb(147, 86, 220));
+
  	border-radius: 40px;
  	margin: 10px;
  	font-size: 0.8rem;
@@ -331,6 +333,7 @@ a{
  	border: none;
  	color: rgb(255, 255, 255);
  	border-radius: 40px;
+	 box-shadow: 2px 2px 3px rgb(130, 129, 129);
  	background: radial-gradient(circle at top left,
  			rgb(255 147 225), rgb(168 110 224));
  	transition: opacity 0.3s;
@@ -373,7 +376,7 @@ a{
  	justify-content: center;
  	align-items: center;
  	background-color: rgb(242, 242, 242);
- 	box-shadow: 2px 2px 3px rgb(203, 203, 203);
+ 	box-shadow: 2px 2px 3px rgb(130, 129, 129);
  	border-radius: 40px;
  	width: 300px;
  	height: 75px;
@@ -513,10 +516,9 @@ a{
  	display: flex;
  	flex-wrap: wrap;
  	justify-content: center;
- 	/* width: 300px; */
-	width: 100%;
+ 	width: 100%;
  	background-color: rgb(255, 255, 255);
- 	box-shadow: 4px 4px 4px rgb(116, 107, 107);
+ 	box-shadow: 4px 4px 4px rgb(130, 129, 129);
  	border-radius: 20px;
  	margin: 4px 0px;
  	padding: 1px 0px;
@@ -550,11 +552,11 @@ a{
  	display: flex;
  	color: rgb(0, 128, 0);
  	background-color: rgb(153, 226, 208);
- 	position: absolute;
+ 	position: relative;
  	z-index: 1;
- 	bottom: 0;
- 	left: 200px;
- 	top: 30px;
+ 	bottom:0;
+ 	left: 80%;
+ 	top: -80%;
  	right: 0;
  	width: 70px;
  	height: 18px;
@@ -566,11 +568,11 @@ a{
  	width: 60px;
  	color: rgb(0, 128, 0);
  	background-color: rgb(153, 226, 208);
- 	position: absolute;
+ 	position: relative;
  	z-index: 1;
  	bottom: 0;
- 	left: 200px;
- 	top: 30px;
+ 	left: 80%;
+ 	top: -80%;
  	right: 0;
  	width: 70px;
  	height: 18px;
@@ -662,7 +664,7 @@ width:100%;
  .titre__footer {
  	display: flex;
  	flex-wrap: wrap;
- 	justify-content: center;
+ 	/* justify-content: center; */
  	justify-items: center;
  	width: 100%;
  }
@@ -672,11 +674,11 @@ width:100%;
  	display: block;
  }
 
- footer p {
+ /* footer p {
  	color: rgb(255, 255, 255);
- }
+ } */
 
- h3 {
+ footer h2 {
  	font-weight: bold;
  	margin-bottom: 20px;
  	margin: 20px;

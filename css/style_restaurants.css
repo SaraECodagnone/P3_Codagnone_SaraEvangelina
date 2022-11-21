@@ -162,7 +162,7 @@ a {
    height: 95px;
    border-radius: 20px;
    background-color: rgb(255, 255, 255);
-   box-shadow: 2px 2px 3px rgb(203, 203, 203);
+   box-shadow: 2px 2px 3px rgb(130, 129, 129);
    margin: 6px;
    padding: 2px;
    position: relative;
@@ -419,6 +419,7 @@ a {
    border-radius: 40px;
    margin: 10px;
    font-size: 0.8rem;
+   box-shadow: 3px 3px 3px rgb(130, 129, 129);
 }
 
 .btn__bg__commander::after {
@@ -433,6 +434,7 @@ a {
    border: none;
    color: rgb(255, 255, 255);
    border-radius: 40px;
+   box-shadow: 3px 3px 3px rgb(130, 129, 129);
    background: radial-gradient(circle at top left,
          rgb(255 147 225), rgb(168 110 224));
    transition: opacity 0.3s;

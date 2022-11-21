@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="fr"> 
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/style_index.css" >
@@ -14,7 +14,7 @@
     <div class="loader">
     </div>
   </div>
-  <main class="page_index">
+  <div class="page_index">
     <header class="header__oh__my__food">
       <!-- <div class="titre_oh-my-food"> -->
       <div id="logo__oh__my__food">
@@ -41,14 +41,7 @@
                 </div>
 
               </div>
-              <!--Button rechercher pour ordinateur et tablet-->
-              <!-- <div class="bouton_submit"> -->
-              <!-- <button type="submit" id="bouton_rechercher" onclick="alert('Hello World!')">
-                <span id="rechercher">Rechercher</span>
-              </button> -->
-              <!-- </div> -->
-              
-          </form>
+           </form>
         </div>
       </div>
       <div class="desc__oh__my__food__plus__bouton">
@@ -65,8 +58,9 @@
         </button>
       </div>
     </header>
-    <nav class="fonctionnement">
-    
+    <main>
+    <!-- <nav class="fonctionnement"> -->
+    <aside class="fonctionnement">
         <h2>Fonctionnement</h2>
       <div class="div__bouton__fnct">
         <a href="#" class="c__fonctionnement">
@@ -115,7 +109,8 @@
           </div>
         </a>
       </div>
-    </nav>
+    <!-- </nav> -->
+    </aside>
     <div class="menu__principal">
       <section class="c__restaurants">
         <div class="titres__restaurants">
@@ -123,7 +118,7 @@
         </div>
         <!-- Cadres Restaurants-->
         <div class="container__restaurants">
-          <div class="cad__restaurants">
+          <article class="cad__restaurants">
             <div class="restaurants">
               <a href="lapalettedugout.html" title="La Palette du Goût">
                 <div class="image__restaurant">
@@ -135,7 +130,7 @@
                 <!--Desc__restaurants + coeur-->
                 <div class="titres__desc">
                   <div class="titre__restaurant">
-                    <a href="lapalettedugout.html" target="_blank">La palette du goût</a>
+                    <a href="lapalettedugout.html" >La palette du goût</a>
                   </div>
                   <div class="titres__lieux">Ménilmontant</div>
                 </div>
@@ -171,9 +166,9 @@
                 <!-- </div> -->
               </div>
             </div>
-          </div>
+          </article>
           <!-- Cadres Restaurants-->
-          <div class="cad__restaurants">
+          <article class="cad__restaurants">
             <div class="restaurants">
               <a href="lanoteenchantee.html" title="La Note Enchantée">
                 <div class="image__restaurant"><img src="images/restaurants/lanoteenchantee.jpg"
@@ -184,7 +179,7 @@
               <div class="desc__restaurants">
                 <div class="titres__desc">
                   <div class="titre__restaurant">
-                    <a href="lanoteenchantee.html" target="_blank">La Note Enchantée</a></div>
+                    <a href="lanoteenchantee.html">La Note Enchantée</a></div>
                   <div class="titres__lieux">Charonne</div>
                 </div>
                 <!-- <div class="sec_desc_plus_heart"> -->
@@ -220,9 +215,9 @@
                 <!-- </div>  -->
               </div>
             </div>
-          </div>
+          </article>
           <!-- Cadres Restaurants-->
-          <div class="cad__restaurants">
+          <article class="cad__restaurants">
             <div class="restaurants">
               <a href="alafrancaise.html" title="A la française">
                 <div class="image__restaurant"><img src="images/restaurants/alafrancaise.jpg" alt="A la Francaise">
@@ -232,7 +227,7 @@
               <div class="desc__restaurants">
                 <div class="titres__desc">
                   <div class="titre__restaurant">
-                    <a href="alafrancaise.html" target="_blank">A la Française</a></div>
+                    <a href="alafrancaise.html" >A la Française</a></div>
                   <div class="titres__lieux">Cité Rouge</div>
                 </div>
                 <div class="icone_hearts_2">
@@ -266,9 +261,9 @@
                 <!--anim coeur-->
               </div>
             </div>
-          </div>
+          </article>
           <!-- Cadres Restaurants-->
-          <div class="cad__restaurants">
+          <article class="cad__restaurants">
             <div class="restaurants">
               <a href="ledelicedessens.html" title="Le delice des sens">
                 <div class="image__restaurant"><img src="images/restaurants/ledelicedessens.jpg"
@@ -278,7 +273,7 @@
               </a>
               <div class="desc__restaurants">
                 <div class="titres__desc">
-                  <div class="titre__restaurant"><a href="ledelicedessens.html" target="_blank">Le délice des sens</a>
+                  <div class="titre__restaurant"><a href="ledelicedessens.html">Le délice des sens</a>
                   </div>
                   <div class="titres__lieux">Folie-Méricourt</div>
                 </div>
@@ -313,16 +308,17 @@
                 <!--anim coeur-->
               </div>
             </div>
-          </div>
+          </article>
           <!--div cad restaurants-->
         </div>
         <!--container__restaurants-->
       </section>
       <!--class=c__restaurants"-->
     </div>
+    </main>
     <footer>
       <div class="titre__footer">
-        <h3>Oh my food</h3>
+        <h2>Oh my food</h2>
       </div>
       <div class="container__footer">
         <div class="footer__restaurant">
@@ -335,7 +331,7 @@
                 </svg>
             </div>
             <div class="desc__restaurant"> <a href="#ref__restaurant">
-                <h3>Proposer un restaurant</h3>
+                Proposer un restaurant
               </a></div>
           </div>
         </div>
@@ -349,7 +345,7 @@
                 </svg>
             </div>
             <div class="desc__handshake"> <a href="#ref__handshake">
-                <h3>Devenir partenaire</h3>
+                Devenir partenaire
               </a></div>
           </div>
         </div>
@@ -357,7 +353,7 @@
           <div id="ref__legal" class="mentions__legales">
             <!-- <div class="icone__mentions__legales"></div> -->
             <div class="desc__mentions__legales"> <a href="#ref__legal">
-                <p>Mentions légales</p>
+                Mentions légales
               </a></div>
           </div>
         </div>
@@ -365,14 +361,14 @@
           <div class="contact">
             <!-- <div class="icone__contact"></div> -->
             <div class="desc__contact"> <a href="mailto:sarafalconi@outlook.fr">
-                <p>Contact</p>
+                Contact
               </a></div>
           </div>
         </div>
       </div>
       <!--container__footer-->
     </footer>
-  </main>
+  </div>
 </body>
 
 </html>
