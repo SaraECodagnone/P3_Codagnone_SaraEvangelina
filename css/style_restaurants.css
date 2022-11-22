@@ -476,8 +476,9 @@ footer {
    flex-wrap: wrap;
    background-color: rgb(0, 0, 0);
    padding: 10px;
-   /* margin: 10px; */
+   margin: 1px;
    width: 100%;
+   justify-content: space-around;
    color: rgb(255, 255, 255);
 }
 
@@ -491,29 +492,36 @@ footer {
    padding: 10px;
 }
 
+.titre__footer {
+   display: flex;
+   flex-wrap: wrap;
+   /* justify-content: center; */
+   justify-items: center;
+   width: 100%;
+}
+
 footer a {
    color: rgb(255, 255, 255);
+   display: block;
 }
 
-footer p {
+/* footer p {
    color: rgb(255, 255, 255);
-}
+} */
 
-footer h3 {
+footer h2 {
    font-weight: bold;
    margin-bottom: 20px;
    margin: 20px;
-   width: 100%;
    font-style: italic;
    font-weight: bold;
    font-family: Shrikhand;
    font-size: 16px;
 }
 
-.container__footer {
+.icone__footer {
    display: flex;
    flex-wrap: wrap;
-   align-items: flex-start;
 }
 
 .restaurant,
@@ -522,11 +530,9 @@ footer h3 {
 .contact {
    display: flex;
    flex-wrap: wrap;
-   margin: 10px;
-   padding: 10px;
+   margin: 1px;
+   padding: 1px;
    align-items: center;
-   width: 300px;
-   height: auto;
 }
 
 .icone__restaurant,
@@ -534,9 +540,10 @@ footer h3 {
 .icone__mentions__legales,
 .icone__contact {
    display: flex;
-   width: 18px;
-   height: 18px;
-   margin-right: 10px;
+   flex-wrap: wrap;
+   width: 20px;
+   height: auto;
+   margin-right: 1px;
    color: rgb(255, 255, 255);
 }
 
@@ -548,8 +555,9 @@ footer h3 {
    flex-wrap: wrap;
    align-content: center;
    width: 200px;
-   height: 30px;
+   height: auto;
 }
+
 
 /*
   *Version mobile/portable
