@@ -789,7 +789,7 @@ width:100%;
  		flex-wrap: wrap;
  		align-items: center;
  		width: 100%;
- 		height: 75px;
+ 		height: auto;
  	}
  }
 
