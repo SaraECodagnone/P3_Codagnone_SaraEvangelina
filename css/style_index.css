@@ -742,6 +742,7 @@ width:100%;
  		justify-content: center;
  		/* flex-direction: column; */
  		min-width: 320px;
+		overflow-x: hidden;
  	}
 
  	.c__fonctionnement:nth-child(1),
@@ -791,6 +792,7 @@ width:100%;
  		flex-wrap: wrap;
  		/* min-width: 640px; */
 		width:100%;
+		overflow-x: hidden;
  	}
 
  	.c__fonctionnement:nth-child(1),
@@ -843,6 +845,7 @@ width:100%;
  		display: flex;
  		flex-wrap: wrap;
  		min-width: 1300px;
+		overflow-x: hidden;
  	}
 
  	.c__fonctionnement:nth-child(1),
