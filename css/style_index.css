@@ -48,6 +48,8 @@ a{
  	-webkit-animation-delay: 3s;
 	-moz-animation-delay: 3s;
 	animation-delay: 3s;
+	position:absolute;
+	z-index:0;
  }
 
  .loader {
@@ -753,6 +755,9 @@ width:100%;
  		/* flex-direction: column; */
  		min-width: 320px;
 		overflow-x: hidden;
+		position:absolute;
+		top:0px;
+		z-index:1;
  	}
 
  	.c__fonctionnement:nth-child(1),
@@ -803,8 +808,11 @@ width:100%;
  		/* min-width: 640px; */
 		width:100%;
 		overflow-x: hidden;
+		position:absolute;
+		top:0px;
+		z-index:1;
  	}
-
+	
  	.c__fonctionnement:nth-child(1),
  	.c__fonctionnement:nth-child(2),
  	.c__fonctionnement:nth-child(3) {
@@ -856,6 +864,9 @@ width:100%;
  		flex-wrap: wrap;
  		min-width: 1300px;
 		overflow-x: hidden;
+		position:absolute;
+		top:0px;
+z-index: 1px;
  	}
 
  	.c__fonctionnement:nth-child(1),
