@@ -2,11 +2,13 @@
    box-sizing: border-box; /* Opera/IE 8+ */
      -moz-box-sizing: border-box;/* Firefox autres Gecko*/ 
       -webkit-box-sizing: border-box;/*Safari/Chrome, autres WebKit*/
-   
    font-family: 'Raleway', 'roboto','sans-serif';
+margin:0;
+padding:0;
 }
 
-h1 {
+h1
+ {
    font-weight: bold;
    font-size: 16px;
    margin: 3px;
@@ -17,22 +19,20 @@ h2 {
    margin: 3px;
 }
 
-h3,
-h4 {
-   font-weight: bold;
-   margin: 3px;
-}
+
 a {
    text-decoration-line: none;
 }
 
-.header__oh__my__food {
+.header__oh__my__food 
+{
    display: flex;
    flex-wrap: wrap;
    width: 100%;
 }
 
-.arrow__plus__titre {
+.arrow__plus__titre
+ {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
@@ -43,17 +43,20 @@ a {
    padding: 10px;
 }
 
-.svg__arrow {
+.svg__arrow
+ {
    width: 30px;
    height: 30px;
 }
 
-#logo_oh_my_food img {
+#logo_oh_my_food img 
+{
    width: 140px;
    height: auto;
 }
 
-.section_restaurants_desc {
+.section_restaurants_desc 
+{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -62,7 +65,8 @@ a {
    padding: 0px 0px 10px 0px;
 }
 
-.image__restaurants {
+.image__restaurants
+ {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -71,13 +75,15 @@ a {
    position: relative;
 }
 
-.image__restaurants img {
+.image__restaurants img
+{
    width: 100%;
    height: 280px;
    object-fit: cover;
 }
 
-.desc_restaurants {
+.desc_restaurants
+ {
    display: flex;
 
    /* flex-wrap: wrap; */
@@ -93,7 +99,8 @@ a {
    padding: 0px 40px 0px 40px;
 }
 
-.desc_restaurants h2 {
+.desc_restaurants h2
+{
    font-family: "Shrikhand";
    font-style: italic;
  }
@@ -106,11 +113,13 @@ a {
    height: auto;
 }
 
-.svg_hearts {
+.svg_hearts
+ {
    overflow: visible;
 }
 
-.icone_hearts {
+.icone_hearts 
+{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -118,12 +127,14 @@ a {
 }
 
 
-.icone_hearts:hover {
+.icone_hearts:hover 
+{
    cursor: pointer;
 } 
 
 .section__entrees h2::before,
-.section__plats__principales h2::before{
+.section__plats__principales h2::before
+{
 content:"";
 background-color: rgb(153, 226, 208);
 height: 3px;
@@ -131,7 +142,8 @@ width: 36px;
 position:absolute;
 bottom: -2px;
 }
-.section__desserts h2::before{
+.section__desserts h2::before
+{
    content:"";
    background-color: rgb(153, 226, 208);
    height: 3px;
@@ -141,7 +153,8 @@ bottom: -2px;
    }
 .section__entrees,
 .section__plats__principales,
-.section__desserts {
+.section__desserts 
+{
    display: flex;
    flex-wrap: wrap;
    border: 2px solid rgb(242, 242, 242);
@@ -151,7 +164,8 @@ bottom: -2px;
 
 .section__entrees h2,
 .section__plats__principales h2,
-.section__desserts h2 {
+.section__desserts h2 
+{
    display: flex;
    flex-wrap: wrap;
    width: 100%;
@@ -160,7 +174,8 @@ bottom: -2px;
 .plats__couts_1,
 .plats__couts_2,
 .plats__couts_3,
-.plats__couts_4 {
+.plats__couts_4
+{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -187,69 +202,82 @@ bottom: -2px;
    position:relative;
 }
 
-.section__entrees .plats__couts_1 {
+.section__entrees .plats__couts_1 
+{
    opacity: 0;
    animation: slideIn 1s ease forwards 2s;
 }
 
-.section__entrees .plats__couts_2 {
+.section__entrees .plats__couts_2
+ {
    opacity: 0;
    animation: slideIn 1s ease forwards 3s;
 }
 
-.section__entrees .plats__couts_3 {
+.section__entrees .plats__couts_3 
+{
    opacity: 0;
    animation: slideIn 1s ease forwards 4s;
 }
 
-.section__entrees .plats__couts_4 {
+.section__entrees .plats__couts_4
+ {
    opacity: 0;
    animation: slideIn 1s ease forwards 5s;
 }
 
 /* Animation Apparition progresive plats principales*/
-.section__plats__principales h2 {
+.section__plats__principales h2
+ {
    opacity: 0;
    animation: slideIn 1s ease forwards 5s;
 }
 
-.section__plats__principales .plats__couts_1 {
+.section__plats__principales .plats__couts_1
+ {
    opacity: 0;
    animation: slideIn 1s ease forwards 6s;
 }
 
-.section__plats__principales .plats__couts_2 {
+.section__plats__principales .plats__couts_2 
+{
    opacity: 0;
    animation: slideIn 1s ease forwards 7s;
 }
 
-.section__plats__principales .plats__couts_3 {
+.section__plats__principales .plats__couts_3 
+{
    opacity: 0;
    animation: slideIn 1s ease forwards 8s;
 }
 
 /* Animation Apparition progressive desserts*/
-.section__desserts h2 {
+.section__desserts h2 
+{
    opacity: 0;
    animation: slideIn 1s ease forwards 9s;
 }
 
-.section__desserts .plats__couts_1 {
+.section__desserts .plats__couts_1 
+{
    opacity: 0;
    animation: slideIn 1s ease forwards 10s;
 }
 
-.section__desserts .plats__couts_2 {
+.section__desserts .plats__couts_2 
+{
    opacity: 0;
    animation: slideIn 1s ease forwards 11s;
 }
 
-.section__desserts .plats__couts_3 {
+.section__desserts .plats__couts_3
+ {
    opacity: 0;
    animation: slideIn 1s ease forwards 12s;
 }
 
-.plats {
+.plats
+ {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -258,14 +286,16 @@ bottom: -2px;
    margin: 1px;
 }
 
-.titre_plats {
+.titre_plats 
+{
    display: flex;
    flex-wrap: nowrap;
    width: 248px;
    margin: 1px 0px 0px 0px;
 }
 
-.titre_plats h3{
+.titre_plats p
+{
    text-overflow: ellipsis;
    overflow: hidden;
    white-space: nowrap;
@@ -273,7 +303,8 @@ bottom: -2px;
    font-size: 14px;
    font-weight: bold;
 }
-.desc_plats_plus_prix {
+.desc_plats_plus_prix
+ {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -282,7 +313,8 @@ bottom: -2px;
    margin: 1px;
 }
 
-.desc_plats {
+.desc_plats
+ {
    display: flex;
    flex-wrap: nowrap;
    width: 248px;
@@ -290,7 +322,8 @@ bottom: -2px;
    
 }
 
-.desc_plats p{
+.desc_plats p
+{
    text-overflow: ellipsis;
    overflow: hidden;
    white-space: nowrap;
@@ -298,7 +331,8 @@ bottom: -2px;
    font-size: 14px;
 }
 
-.prix {
+.prix 
+{
    display: flex;
    flex-wrap: wrap;
    font-weight: bold;
@@ -306,11 +340,13 @@ bottom: -2px;
       width: 40px;
 }
 
-.prix  {
+.prix p
+ {
    text-align: right;
 }
 
-.div_validation {
+.div_validation 
+{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -329,7 +365,8 @@ bottom: -2px;
    display:none;
 }
 
-.div_square {
+.div_square
+ {
    display: flex;
    flex-wrap: wrap;
    position: absolute;
@@ -345,7 +382,8 @@ bottom: -2px;
    border-top-right-radius: 25px;
 }
 
-.svg_square {
+.svg_square 
+{
    width: 94px;
    height: 104px;
    margin: 0px;
@@ -353,7 +391,8 @@ bottom: -2px;
    border-top-right-radius: 25px;
 }
 
-.div_circle {
+.div_circle
+ {
    display: flex;
    flex-wrap: wrap;
    position: absolute;
@@ -369,7 +408,8 @@ bottom: -2px;
    border-radius: 40px;
 }
 
-.svg_circleok {
+.svg_circleok 
+{
    color: rgb(153, 226, 208);
    width: 40px;
    height: 40px;
@@ -377,33 +417,39 @@ bottom: -2px;
    border-radius: 40px;
 }
 
-.plats:hover {
+.plats:hover 
+{
    cursor: pointer;
 }
 
-.plats:hover .titre_plats {
+.plats:hover .titre_plats 
+{
    -webkit-animation: anim-text 2s ease forwards;
    animation: anim-text 2s ease forwards;
 }
 
-.plats:hover .desc_plats {
+.plats:hover .desc_plats 
+{
    -webkit-animation: anim-text 2s ease forwards;
    animation: anim-text 2s ease forwards;
 }
 
-.plats:hover .prix {
+.plats:hover .prix 
+{
    -webkit-animation: tran 2s ease forwards;
    animation: tran 2s ease forwards;
 }
 
-.plats:hover+.div_validation {
+.plats:hover+.div_validation 
+{
    -webkit-animation: tran 2s ease forwards;
    animation: tran 2s ease forwards;
    display:block;
    opacity: 1;
 }
 
-.plats:hover+.div_validation>.div_circle {
+.plats:hover+.div_validation>.div_circle 
+{
    -webkit-animation: spin 2s ease forwards;
    animation: spin 2s ease forwards;
 }
@@ -411,15 +457,18 @@ bottom: -2px;
 /**/
 /* bouton commander gradient-color*/
 /**/
-.btn__bg__commander:hover {
+.btn__bg__commander:hover 
+{
    cursor: pointer;
 }
 
-.btn__bg__commander:hover::after {
+.btn__bg__commander:hover::after
+ {
    opacity: 1;
 }
 
-.btn__bg__commander {
+.btn__bg__commander
+ {
    width: 180px;
    height: 40px;
    border: none;
@@ -436,7 +485,8 @@ bottom: -2px;
    box-shadow: 3px 3px 3px rgb(130, 129, 129);
 }
 
-.btn__bg__commander::after {
+.btn__bg__commander::after 
+{
    content: "";
    position: absolute;
    top: 0;
@@ -457,7 +507,8 @@ bottom: -2px;
 /**/
 /* Container bouton*/
 /**/
-.container__bouton {
+.container__bouton 
+{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -469,7 +520,8 @@ bottom: -2px;
 /*Footer*/
 /**/
 /**/
-footer{
+footer
+{
    display: flex;
    flex-wrap: wrap;
    background-color: rgb(0, 0, 0);
@@ -480,7 +532,8 @@ footer{
    color: rgb(255, 255, 255);
 }
 
-.container__footer {
+.container__footer 
+{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -490,7 +543,8 @@ footer{
    padding: 10px;
 }
 
-.titre__footer {
+.titre__footer
+ {
    display: flex;
    flex-wrap: wrap;
    /* justify-content: center; */
@@ -498,7 +552,8 @@ footer{
    width: 100%;
 }
 
-footer a {
+footer a 
+{
    color: rgb(255, 255, 255);
    display: block;
 }
@@ -507,7 +562,8 @@ footer a {
    color: rgb(255, 255, 255);
 } */
 
-footer h2 {
+footer h2 
+{
    font-weight: bold;
    margin-bottom: 20px;
    margin: 20px;
@@ -517,7 +573,8 @@ footer h2 {
    font-size: 16px;
 }
 
-.icone__footer {
+.icone__footer
+ {
    display: flex;
    flex-wrap: wrap;
 }
@@ -525,7 +582,8 @@ footer h2 {
 .restaurant,
 .handshake,
 .mentions__legales,
-.contact {
+.contact 
+{
    display: flex;
    flex-wrap: wrap;
    margin: 1px;
@@ -536,7 +594,8 @@ footer h2 {
 .icone__restaurant,
 .icone__handshake,
 .icone__mentions__legales,
-.icone__contact {
+.icone__contact 
+{
    display: flex;
    flex-wrap: wrap;
    width: 20px;
@@ -548,7 +607,8 @@ footer h2 {
 .desc__restaurant,
 .desc__handshake,
 .desc__mentions__legales,
-.desc__contact {
+.desc__contact 
+{
    display: flex;
    flex-wrap: wrap;
    align-content: center;
@@ -568,7 +628,8 @@ footer h2 {
    .oh__my__food__page {
       display: flex;
       flex-wrap: wrap;
-      flex-direction: column;
+      justify-content: center;
+      /* flex-direction: column; */
       /* min-width:320px;
   max-width: 767px; */
       width: 100%;
@@ -618,6 +679,7 @@ footer h2 {
    .oh__my__food__page {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       width: 100%;
       /* min-width: 768px;
         max-width: 991px; */
@@ -665,6 +727,7 @@ footer h2 {
    .oh__my__food__page {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       width: 100%;
       /* min-width:992px;
      max-width: 1300px; */
