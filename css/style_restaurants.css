@@ -29,7 +29,7 @@ a {
    text-decoration-line: none;
 }
 
-.header__oh_my_food {
+.header__oh__my__food {
    display: flex;
    flex-wrap: wrap;
    width: 100%;
@@ -295,7 +295,7 @@ bottom: -2px;
    
 }
 
-.desc_plats p {
+.desc_plats {
    text-overflow: ellipsis;
    overflow: hidden;
    white-space: nowrap;
@@ -311,7 +311,7 @@ bottom: -2px;
       width: 40px;
 }
 
-.prix p {
+.prix  {
    text-align: right;
 }
 
