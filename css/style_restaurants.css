@@ -267,19 +267,24 @@ bottom: -2px;
    display: flex;
    flex-wrap: nowrap;
    width: 248px;
-   margin: 1px;
-   /* padding: 3px; */
+   margin: 1px 0px 0px 0px;
 }
 
-.titre_plats p {
+.titre_plats h3 {
    text-overflow: ellipsis;
    overflow: hidden;
    white-space: nowrap;
-   margin: 1px;
-   /* padding: 3px; */
-   width: 240px;
+    width: 240px;
    font-size: 14px;
    font-weight: bold;
+}
+.desc_plats_plus_prix {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   width: 310px;
+   margin: 1px;
 }
 
 .desc_plats {
@@ -287,16 +292,14 @@ bottom: -2px;
    flex-wrap: nowrap;
    width: 248px;
    margin: 1px;
-   /* padding: 3px; */
+   
 }
 
 .desc_plats p {
    text-overflow: ellipsis;
    overflow: hidden;
    white-space: nowrap;
-   margin: 1px;
-   /* padding: 3px; */
-   width: 240px;
+    width: 240px;
    font-size: 14px;
 }
 
@@ -304,13 +307,11 @@ bottom: -2px;
    display: flex;
    flex-wrap: wrap;
    font-weight: bold;
-   margin: 3px;
-   padding: 2px;
-   width: 40px;
+   margin: 1px;
+      width: 40px;
 }
 
 .prix p {
-   width: 40px;
    text-align: right;
 }
 
@@ -330,6 +331,7 @@ bottom: -2px;
    overflow: hidden;
    margin: 2px;
    padding: 3px;
+   display:none;
 }
 
 .div_square {
@@ -402,6 +404,7 @@ bottom: -2px;
 .plats:hover+.div_validation {
    -webkit-animation: tran 2s ease forwards;
    animation: tran 2s ease forwards;
+   display:block;
    opacity: 1;
 }
 
